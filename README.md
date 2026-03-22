@@ -11,7 +11,7 @@
 ## Установка и запуск
 
 ```bash
-git clone <ссылка на репозиторий >
+git clone https://github.com/Iversat/telegram-proxy-server
 cd telegram-proxy-server
 docker compose build --no-cache
 docker compose up -d

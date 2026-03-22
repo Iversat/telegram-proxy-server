@@ -15,3 +15,6 @@ git clone <ссылка на репозиторий >
 cd telegram-proxy-server
 docker compose build --no-cache
 docker compose up -d
+
+Управление пользователями
+Все команды управления выполняются через скрипт config.py внутри запущенного контейнера.

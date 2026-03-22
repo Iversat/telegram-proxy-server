@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 USERS_FILE = 'users.enc'
 ENV_FILE = '.env'
-TLS_DOMAIN = "vk.ru"
+TLS_DOMAIN = "yandex.ru"
 
 
 def init_env():

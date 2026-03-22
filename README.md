@@ -17,7 +17,7 @@ docker compose build --no-cache
 docker compose up -d
 ```
 Управление пользователями:
-Все команды управления выполняются через скрипт config.py внутри запущенного контейнера.
+  Все команды управления выполняются через скрипт config.py внутри запущенного контейнера.
 Добавление нового пользователя:
 ```bash
 docker exec -it telegram-proxy-server python3 config.py add <имя_пользователя>

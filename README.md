@@ -9,7 +9,7 @@
     \|__|     \|__|    \|__|  \|__|     \|__|\|__|\|_______|    \|__|  \|_______|
  
 </pre>
-<div align="center">
+</div>
 # Telegram MTProto Proxy с FakeTLS
 
 MTProto прокси-сервер для Telegram, работающий в Docker-контейнере.

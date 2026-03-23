@@ -4,8 +4,6 @@ services:
     image: telegram-proxy-server
     container_name: telegram-proxy-server
     restart: unless-stopped
-    env_file:
-      - .env
     ports:
       - "${PORT:-1080}:${PORT:-1080}"
     volumes:
